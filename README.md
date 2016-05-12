@@ -1,24 +1,19 @@
-# README
+# Instrucciones del test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ El test consiste en implementar una mini aplicación que modele una factura de venta chilena. El formato es estándar, sin embargo puedes tomar como referencia la siguiente imagen:
 
-Things you may want to cover:
+ http://www.eldinamo.cl/wp-content/uploads/2015/01/BOLETA-UDI.jpg
 
-* Ruby version
+ Para esta aplicación dispones del repositorio git@github.com:ig10/rebuss-recruit-test.git, del cual debes obtener un fork en donde codificarás la app. El repositorio contiene una aplicación vacía con Ruby on Rails 5, bootstrap y Sass.
 
-* System dependencies
+ El requisito básico es que generes las migraciones (modelo de datos) que contenga las entidades y datos principales implicados en el documento (tablas y columnas). Evaluaremos principalmente la estructura de tablas y relaciones, no siendo tan importantes la completitud de columnas de estas. Debes generar un seed para carga de información inicial.
 
-* Configuration
+ Luego, debes implementar el action/view 'show', el cual debe desplegar la información de una factura, con un formato similar al de la imagen de referencia. Para esto, evidentemente necesitas utilizar HTML + CSS.
 
-* Database creation
+ Opcionalmente, puedes implementar otros metodos del CRUD de facturas.
 
-* Database initialization
+ El código fuente debe incluir comentarios e indicar cualquier regla que asumas en el desarrollo.
 
-* How to run the test suite
+ El plazo Máximo de entrega es de tres días.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Suerte!
